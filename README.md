@@ -4,8 +4,13 @@ Hackerthon for Sleep-Keeper
 # 🙋‍♀️ 참여자 🙋‍♂️
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/HominKim"></td>
-    <td align="center"><a href="https://githun.com/K-0joo"></td>
+    <td align="center">
+      <a href="https://github.com/HominKim">
+      <img src="https://avatars.githubusercontent.com/u/88646511?v=4?s=100" width="100px;" alt="">
+    </td>
+      <td align="center"><a href="https://githun.com/K-0joo">
+      <img src="https://avatars.githubusercontent.com/u/83263735?v=4?s=100" width="100px;" alt="">
+    </td>
   </tr>    
 </table>
 
