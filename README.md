@@ -1,5 +1,3 @@
-<div align=center>
-
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeAuto&height=300&section=header&text=Sleep%20Keeper%&fontSize=50&animation=twinkling)
 
 </br>
