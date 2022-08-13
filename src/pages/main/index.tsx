@@ -13,12 +13,12 @@ const MainPage = () => {
     [nickname]
   );
   const onClickHandler = useCallback(()=> {
+    console.log('test');
     localStorage.setItem('nickname',nickname);
     navigate('/board')
   },[nickname])
   return (
     <MainWrapper>
-      <BackGroundIcon width={screen.width} />
       <h1>Sleep Keeper</h1>
       <section>
         <h3>NICK NAME</h3>

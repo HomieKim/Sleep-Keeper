@@ -18,4 +18,5 @@ export const HeaderWrapper = styled.div`
   justify-content:center;
   align-items:center;
   background:var(--header);
+  z-index:1000;
 `

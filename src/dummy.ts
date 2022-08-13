@@ -1,0 +1,64 @@
+type User = {
+  nickname: string;
+  isSleep:boolean;
+}
+
+export const DummyUser:Array<User> = [
+  {
+    nickname:'user1',
+    isSleep:true,
+  },
+  {
+    nickname:'user2',
+    isSleep:false,
+  },
+  {
+    nickname:'user3',
+    isSleep:true,
+  },
+  {
+    nickname:'user4',
+    isSleep:true,
+  },
+  {
+    nickname:'user5',
+    isSleep:false,
+  },
+  {
+    nickname:'user6',
+    isSleep:true,
+  },
+  {
+    nickname:'user7',
+    isSleep:false,
+  },
+  {
+    nickname:'user8',
+    isSleep:true,
+  },
+  {
+    nickname:'user9',
+    isSleep:true,
+  },
+  {
+    nickname:'user10',
+    isSleep:false,
+  },
+  {
+    nickname:'user10',
+    isSleep:false,
+  },
+  {
+    nickname:'user10',
+    isSleep:false,
+  },
+  {
+    nickname:'user10',
+    isSleep:false,
+  },
+  {
+    nickname:'user10',
+    isSleep:false,
+  },
+
+]
