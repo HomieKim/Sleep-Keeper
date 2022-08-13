@@ -1,9 +1,9 @@
 import React from 'react';
 
-const BoardDetail = () => {
+const RoomDetailPage = () => {
   return (
     <div>dfd</div>
   )
 }
 
-export default BoardDetail;
+export default RoomDetailPage;

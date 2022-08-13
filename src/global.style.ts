@@ -22,6 +22,13 @@ export const GlobalStyle = createGlobalStyle`
     display: none;
     }
     -webkit-tap-highlight-color: transparent;
+    --blue:#abcfeb;
+    --beige:rgb(246,232,219);
+    --pink:rgb(221,184,207);
+    --green:rgb(80,164,197);
+    --grey:rgb(164,175,195);
+    --header:rgba(rgba(46, 105, 154, 0.5))
+
   }
 
   * {
