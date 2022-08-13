@@ -5,14 +5,14 @@ export const MainWrapper = styled.div`
   height: 100%;
   text-align: center;
   position:relative;
+  overflow: hidden;
   & h1 {
-    
     font-weight: 400;
     size: 36px;
-    margin-top: 50px;
+    padding-top: 50px;
   }
   & section {
-    margin-top:110px;
+    padding-top:110px;
     & h3 {
       font-weight:400;
       size:24px;
@@ -48,6 +48,8 @@ export const MainWrapper = styled.div`
   & svg {
       position:absolute;
       left:0;
-      
+      bottom:0;
+      transform:translateY(40px);
+      max-width:480px;
     }
 `;
