@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     --pink:rgb(221,184,207);
     --green:rgb(80,164,197);
     --grey:rgb(164,175,195);
-    --header:rgba(46, 105, 154, 0.5);
+    --header:#97b4cc;
 
   }
 

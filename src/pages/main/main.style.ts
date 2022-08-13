@@ -1,4 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const SlideTop = keyframes`
+  0% {
+    transform: translateY(300px);
+    opacity:0
+  }
+  100% {
+    transform: translateY(0);
+    opacity:1
+  }
+`
 
 export const MainWrapper = styled.div`
   width: 100%;
@@ -6,13 +17,23 @@ export const MainWrapper = styled.div`
   text-align: center;
   position:relative;
   overflow: hidden;
+  display:flex;
+  flex-direction:column;
   & h1 {
     font-weight: 400;
     size: 36px;
     padding-top: 50px;
   }
   & section {
-    padding-top:110px;
+    background:linear-gradient(180deg, #AA8DDA 0%, #1F3276 100%);
+    flex:1;
+    padding-top:30px;
+    margin-top:20px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    animation: ${SlideTop} 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
     & h3 {
       font-weight:400;
       size:24px;
@@ -34,6 +55,7 @@ export const MainWrapper = styled.div`
         font-weight:lighter;
         text-align:center;
       }
+      z-index:10;
     }
     & button {
       margin-top:22px;
@@ -43,13 +65,8 @@ export const MainWrapper = styled.div`
       font-size:24px;
       color:white;
       border-radius:10px;
+      z-index:10;
     }
   }
-  & svg {
-      position:absolute;
-      left:0;
-      bottom:0;
-      transform:translateY(40px);
-      max-width:480px;
-    }
+  
 `;
