@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import GlobalLayout from './pages/_layout';
+
+const Main = React.lazy(()=> import('./pages/main'));
+const Board = React.lazy(()=> import('./pages/board'));
+const BoardDetail = React.lazy(()=> import('./pages/board-detail'));
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route element={<GlobalLayout />}>
+        <Route index element={<Main />} />
+        <Route path='board' element={<Board />} />
+        <Route path='board/:id' element={<BoardDetail />} />
+      </Route>
+    </Routes>
   );
 }
 
