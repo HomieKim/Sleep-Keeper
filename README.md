@@ -9,9 +9,17 @@
       <a href="https://github.com/HominKim">
       <img src="https://avatars.githubusercontent.com/u/88646511?v=4?s=100" width="100px;" alt="">
     </td>
-      <td align="center"><a href="https://githun.com/K-0joo">
+    <td align="center">
+      <a href="https://githun.com/K-0joo">
       <img src="https://avatars.githubusercontent.com/u/83263735?v=4?s=100" width="100px;" alt="">
     </td>
+    <td align="center">
+      <a href="https://github.com/">
+      <img src="https://avatars.githubusercontent.com/u/93824145?v=4?s=100" width="100px;" alt="">
+   </td>
+   <td algin="center">
+    <a href="httos://github.com/">
+    <img src= ?s=100" width="100px; alt="">
   </tr>
   <tr>
     <td align="center">
@@ -26,6 +34,18 @@
           K-0joo
         </b>
      </td>     
+     <td align="center">
+      <sub>
+        <b>
+        
+        </b>
+     </td>
+     <td align="center">
+      <sub>
+        <b>
+        
+        </b>
+     </td>
   </tr>
 </table>
 
