@@ -19,7 +19,7 @@
    </td>
    <td algin="center">
     <a href="httos://github.com/">
-    <img src= ?s=100" width="100px; alt="">
+    <img src="https://avatars.githubusercontent.com/u/93826302?v=4?s=100" width="100px; alt="">
   </tr>
   <tr>
     <td align="center">
@@ -37,13 +37,13 @@
      <td align="center">
       <sub>
         <b>
-        
+          hyeri6318
         </b>
      </td>
      <td align="center">
       <sub>
         <b>
-        
+          oyune
         </b>
      </td>
   </tr>
